@@ -11,9 +11,9 @@ const Login = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="">
+      <div className="flex flex-col justify-center h-[85vh] my-10">
         <h3 className="text-center text-3xl font-semibold">Please Login</h3>
-        <div className="card flex-shrink-0 w-full max-w-lg mt-5 mx-auto shadow-2xl bg-base-100">
+        <div className="card flex-shrink-0 w-full max-w-lg mt-5 mx-auto shadow-2xl bg-base-100 ">
           <form onSubmit={handleLogin} className="card-body">
             <div className="form-control">
               <label className="label">
